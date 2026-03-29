@@ -8,7 +8,7 @@ Vape injects its cheat DLL into Minecraft by writing the entire PE flat into a s
 
 The detector:
 
-1. Finds `javaw.exe` or `java.exe` via process snapshot
+1. Finds `javaw.exe` or `java.exe`
 2. Walks the process memory with `VirtualQueryEx` looking for **private, committed, RWX** regions
 3. Checks if the region starts with an `MZ` header and has a valid `PE` signature
 4. Parses the PE section table looking for a section named **`.vlizer`**
