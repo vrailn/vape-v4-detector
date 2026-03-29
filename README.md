@@ -1,8 +1,6 @@
 # Vape V4 Loader — Reverse Engineering Analysis
 
-> **Purpose:** Anti-cheat research & detection engineering reference  
-> **Sample:** `1a0248b5.exe.bin` (64-bit PE, MSVC)  
-> **Protection:** VMProtect 3.x (`.vlizer` section, ~7MB virtualized code)  
+> **Protection:** VMProtect 3.x (`.vlizer` section, ~7MB virtualized code) (or code defender)
 > **Target:** Minecraft (Java Edition)
 
 ---
