@@ -1,6 +1,6 @@
 # Vape V4 Detector
 
-Detects Vape V4 injected into Minecraft (`javaw.exe` / `java.exe`) by scanning for its unique `.vlizer` PE section inside RWX memory regions.
+Detects Vape V4 injected into Minecraft (`javaw.exe` / `java.exe`) by scanning for its `.vlizer` PE section inside RWX memory regions.
 
 ## How It Works
 
