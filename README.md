@@ -1,4 +1,4 @@
-# Vape V4 Detector
+# Vape V4 finder
 
 Detects Vape V4 injected into a Minecraft instance.
 
