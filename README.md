@@ -4,7 +4,7 @@ Detects Vape V4 injected into Minecraft (`javaw.exe` / `java.exe`) by scanning f
 
 ## How It Works
 
-Vape injects its cheat DLL into Minecraft by writing the entire PE flat into a single allocation and marking it `PAGE_EXECUTE_READWRITE`. The injected PE is protected with Themida/WinLicense, which adds a section called `.vlizer` containing virtualized bytecode. No legitimate software does this to a Java process.
+Vape injects its cheat DLL into Minecraft by writing the entire PE flat into a single allocation and marking it `PAGE_EXECUTE_READWRITE`. The injected PE is protected with Themida/WinLicense, which adds a section called `.vlizer`.
 
 The detector:
 
