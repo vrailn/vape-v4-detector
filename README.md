@@ -51,9 +51,9 @@ The `.vlizer` section is added by Themida/WinLicense, we check for PAGE_EXECUTE_
 5. Starts a remote thread with `CreateRemoteThread` at an export named `"tim"` in the injected PE
 ```
 also for some reason vape maps the same dll twice, for no reason -_- so it will always show 2 instances 
-
+```
 <img width="848" height="573" alt="image" src="https://github.com/user-attachments/assets/052bd635-6e68-4159-ad5d-3b90f9935cca" />
-
+```
 
 they map the 1st dll with the loader and legit the SAME dll just inside that dll?, i have 0 fucking clue why
 ```
