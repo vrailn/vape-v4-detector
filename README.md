@@ -23,12 +23,11 @@ MSVC:
 open the sln and build with vs 22 - 26
 ```
 
-Run as administrator (needs `PROCESS_VM_READ` access to `javaw.exe`).
 
 ## Usage
 
 ```
-vape_detector.exe
+just open the exe when it builds after injecting vape-v4
 ```
 
 Auto-finds Minecraft. No arguments needed.
